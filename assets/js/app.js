@@ -51,7 +51,11 @@ NPMap = {
     position: 'topright'
   },
   title: 'North Coast and Cascades Data Visualizer',
-  zoom: 4
+  zoom: 7,
+  center: {
+    lat: 47.051,
+    lng: -121.080
+  }
 };
 
 (function() {
