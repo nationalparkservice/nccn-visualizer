@@ -60,6 +60,6 @@ NPMap = {
 
 (function() {
   var s = document.createElement('script');
-  s.src = 'http://www.nps.gov/lib/npmap.js/3.0.7/npmap-bootstrap.min.js';
+  s.src = 'http://www.nps.gov/lib/npmap.js/3.0.8/npmap-bootstrap.min.js';
   document.body.appendChild(s);
 })();
