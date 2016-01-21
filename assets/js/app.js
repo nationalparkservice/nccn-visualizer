@@ -46,7 +46,16 @@ NPMap = {
     title: 'Module #2',
     type: 'custom'
   }],
-  overlays: [],
+  overlays: [{
+    clickable: false,
+    styles: {
+      polygon: {
+        'fill': 'transparent'
+      }
+    },
+    type: 'geojson',
+    url: 'data/nccn-boundary.geojson'
+  }],
   smallzoomControl: {
     position: 'topright'
   },
